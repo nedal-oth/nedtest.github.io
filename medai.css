@@ -1,0 +1,68 @@
+/* Start Media Query */
+
+    /* from 0 to mbile */
+    @media (max-width: 767px)
+    {
+        .Subscribe .form-control{margin: auto;}
+
+        .TextAbout1 {display: none;}
+
+        .TextAbout2{font-size:25px;}
+
+        .underTextAbout{font-size: 18px;}
+
+        .carousel-caption{display: none;}
+
+        .carousel-indicators li{display: none;}
+
+    }
+        /* Small Screen */
+    @media(min-width: 768px) and (max-width: 991px)
+    {
+        .TextAbout1{display: none;}
+
+        .TextAbout2{font-size:25px;} 
+
+        .underTextAbout{font-size: 18px;}
+
+        .carousel-caption{display: none;}
+
+        .carousel-indicators li{display: none;}
+    }
+        /* Medium Screen */
+    @media (min-width: 992px) and (max-width: 1199px)
+    {
+        .TextAbout2{display: none;}
+        
+        .TextAbout1
+        {
+            display: block;
+            font-size: 40px;
+        }
+
+        .underTextAbout{font-size: 25px;}
+
+        .carousel-caption{display: block;}
+
+        .carousel-indicators li{display: block;}
+    }
+        /* Large Screen */
+    @media (min-width:1200px)
+    {
+        .TextAbout2{ display: none;}
+
+        .TextAbout1
+        {
+            display: block;
+            font-size: 40px;
+        }
+
+        .underTextAbout{font-size: 25px;}
+
+        .carousel-caption{display: block;}
+
+        .carousel-indicators li{display: block;}
+    }
+
+
+/* End Media Query */

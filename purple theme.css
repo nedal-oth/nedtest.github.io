@@ -1,0 +1,20 @@
+/* Start Default Theme */
+.dropdown-item:hover,.option-box .gear-check
+{
+    color: rgb(255, 255, 255);
+    background-color: #E426D5;
+}
+.carousel-indicators .active ,.option-box .color-option ul li
+{
+    background-color: #E426D5;
+}
+.span1,.span2,.testimonials .carousel-item span,.footer h3,.footer .copyright span,.testimonials .carousel-item span
+{
+    color:#E426D5;
+}
+
+.testimonials .carousel-indicators li.active,.option-box .color-option
+{
+    border: 2px solid #E426D5;
+}
+/* End Default Theme */
